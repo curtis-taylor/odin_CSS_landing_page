@@ -1,8 +1,20 @@
-.header_bar {
+.flex-container {
+  display: flex; 
+  flex-direction: column;
+}
+
+
+.header_logo {
     background-color: #1f2937;
     font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #f9faf8;
+
+}
+
+.navbar {
+    font-size: 18px;
+    color: #e5e7eb;
 
 }
 
@@ -11,4 +23,13 @@
     font-weight: 900;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    background-color: #e5e7eb;
+    font-family:monospace
 }
