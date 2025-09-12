@@ -4,11 +4,17 @@
  
 }
 
+
 .flex-container.header {
   display: flex; 
   flex-direction: row;
   border-color: cadetblue;
   border-width: 10px;
+  
+} 
+
+img {
+    width: 30%;
 }
 
 .flex-container.title {
@@ -24,6 +30,7 @@
     font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #f9faf8;
+    flex: 1;
 
 }
 
@@ -43,12 +50,14 @@
     font-size: 18px;
     color: #e5e7eb;
     background-color: #1f2937;
+    padding: 50px;
 }
 
 .navbar {
     font-size: 18px;
     color: #e5e7eb;
     background-color: #1f2937;
+    flex: 1;
 
 }
 
