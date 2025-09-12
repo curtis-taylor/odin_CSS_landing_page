@@ -13,13 +13,13 @@
   
 } 
 
-img {
-    width: 30%;
+big_image {
+    width: 10%;
 }
 
 .flex-container.title {
   display: flex; 
-  flex-direction: column;
+  flex-direction: row;
   border-color: cadetblue;
   border-width: 20px;
 }
@@ -32,6 +32,11 @@ img {
     color: #f9faf8;
     flex: 1;
 
+}
+
+.header_logo img {
+    width: 10%;
+    flex: 1;
 }
 
 .title{
