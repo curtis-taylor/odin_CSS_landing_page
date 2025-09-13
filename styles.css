@@ -8,21 +8,18 @@
 .flex-container.header {
   display: flex; 
   flex-direction: row;
-  border-color: cadetblue;
-  border-width: 10px;
   
 } 
 
 #big_image {
     width: 60%;
     flex: 1 1 auto;
+    margin-left: 50px ;
 }
 
 .flex-container.title {
   display: flex; 
   flex-direction: row;
-  border-color: cadetblue;
-  border-width: 20px;
 }
 
 #sign-up {
@@ -31,6 +28,9 @@
     background-color: #3882f6;
     font-size: medium;
     color: white;
+    border: 5px solid #32a1ce; 
+    margin: 50px;
+    z-index: 100;
 }
 
 .header_logo {
@@ -53,9 +53,6 @@
     font-weight: 900;
     background-color: #1f2937;
     padding: 50px;
-    border-color: red;
-    border-width: 20px; 
-
 
 }
 
@@ -63,7 +60,7 @@
     font-size: 18px;
     color: #e5e7eb;
     background-color: #1f2937;
-    padding: 50px;
+    padding-left: 50px;
 }
 
 
@@ -94,4 +91,25 @@
     background-color: #e5e7eb;
     font-family:monospace;
     padding: 100px
+}
+
+.quote_author {
+    font-family:monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    color: black;
+    margin-left: 40%;
+}
+
+.footer_title {
+    font-size: 20px;
+    margin-left: 50%;
+    font-weight: 300;
+}
+
+.footer_small {
+    font-size: 15px;
+    margin-left: 50%;
+    font-weight: 300;
 }
