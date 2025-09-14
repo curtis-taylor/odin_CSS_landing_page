@@ -28,9 +28,10 @@
     background-color: #3882f6;
     font-size: medium;
     color: white;
-    border: 5px solid #32a1ce; 
+    border: 2px solid #e5e7eb;;
     margin: 50px;
     z-index: 100;
+    border-radius: 10px;
 }
 
 .header_logo {
@@ -83,6 +84,19 @@
     padding: 100px;
 }
 
+.info_image {
+   width: 20%; 
+  border-radius: 10px;
+  padding: 20px;
+
+
+}
+
+.info_image_container {
+    display: flex;
+    flex-direction: row;
+}
+
 .quote {
     color: #1f2937;
     font-size: 36px;
@@ -106,10 +120,33 @@
     font-size: 20px;
     margin-left: 50%;
     font-weight: 300;
+    color: #e5e7eb;
 }
 
 .footer_small {
     font-size: 15px;
     margin-left: 50%;
     font-weight: 300;
+    color: #e5e7eb;
+}
+
+.footer_container {
+    background-color: #3382f6;
+    max-width: 50%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#footer_sign-up {
+    width: 100px;
+    height: 50px;
+    background-color: #3882f6;
+    font-size: medium;
+    border: 2px solid #e5e7eb;; 
+    margin: 50px;
+    z-index: 100;
+    color: #e5e7eb;
+    border-radius: 10px;
+
+
 }
