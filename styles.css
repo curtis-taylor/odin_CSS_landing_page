@@ -145,11 +145,12 @@
     height: 50px;
     background-color: #3882f6;
     font-size: medium;
-    border: 2px solid #e5e7eb;; 
-    margin: 50px;
+    border: 2px solid #e5e7eb; 
     z-index: 100;
     color: #e5e7eb;
     border-radius: 10px;
+    margin-left: 600px;
+    margin-bottom: 10%;
 
 
 }
