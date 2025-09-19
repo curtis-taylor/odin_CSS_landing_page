@@ -1,6 +1,7 @@
 .flex-container {
   display: flex; 
   flex-direction: column;
+  width: 70%;
  
 }
 
@@ -8,8 +9,17 @@
 .flex-container.header {
   display: flex; 
   flex-direction: row;
+   width: 70%;
   
 } 
+
+
+.flex-container.title {
+  display: flex; 
+  flex-direction: row;
+   width: 70%;
+}
+
 
 #big_image {
     width: 60%;
@@ -17,10 +27,7 @@
     margin-left: 50px ;
 }
 
-.flex-container.title {
-  display: flex; 
-  flex-direction: row;
-}
+
 
 #sign-up {
     width: 100px;
