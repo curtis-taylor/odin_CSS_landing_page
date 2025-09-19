@@ -1,15 +1,15 @@
 .flex-container {
   display: flex; 
   flex-direction: column;
-  width: 70%;
- 
+  width: 90%;
+
 }
 
 
 .flex-container.header {
   display: flex; 
   flex-direction: row;
-   width: 70%;
+  width: 90%;
   
 } 
 
@@ -17,7 +17,7 @@
 .flex-container.title {
   display: flex; 
   flex-direction: row;
-   width: 70%;
+  width: 90%;
 }
 
 
