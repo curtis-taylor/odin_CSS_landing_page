@@ -1,7 +1,13 @@
+.super_container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .flex-container {
   display: flex; 
   flex-direction: column;
-  width: 90%;
+
 
 }
 
@@ -9,22 +15,25 @@
 .flex-container.header {
   display: flex; 
   flex-direction: row;
-  width: 90%;
+
   
 } 
 
 .footer_container {
   display: flex; 
   flex-direction: column;
-  width: 90%;
-  height: 200px;
+  justify-content: center;
+  align-items: center;
+
+  height: 300px;
+
   
 } 
 
 .flex-container.title {
   display: flex; 
   flex-direction: row;
-  width: 90%;
+
 }
 
 
@@ -122,7 +131,12 @@
     font-weight: 300;
     background-color: #e5e7eb;
     font-family:monospace;
-    padding: 100px
+    align-items: end;
+    justify-content: center;
+    display: flex;
+    height: 400px;
+    width: auto;
+
 }
 
 .quote_author {
@@ -131,28 +145,30 @@
     font-style: normal;
     font-weight: 900;
     color: black;
-    margin-left: 40%;
 }
 
 .footer_title {
     font-size: 20px;
-    margin-left: 50%;
     font-weight: 300;
     color: #e5e7eb;
+    margin-left: 20px;
 }
 
 .footer_small {
     font-size: 15px;
-    margin-left: 50%;
     font-weight: 300;
     color: #e5e7eb;
+    margin-left: 20px;
 }
 
 .call_container {
     background-color: #3382f6;
-    max-width: 50%;
+    width: 600px;
+    height: 150px;
     border-radius: 10px;
-    justify-content: end;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
     
 }
 
@@ -165,6 +181,7 @@
     z-index: 100;
     color: #e5e7eb;
     border-radius: 10px;
+    margin-right: 20px;
 
 
 }
