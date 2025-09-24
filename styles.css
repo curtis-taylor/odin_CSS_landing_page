@@ -16,10 +16,12 @@
 .flex-container-header {
   display: flex; 
   flex-direction: row;
-  width: auto;
-  height: auto
+    width: 1200px;
+  height: 100px
+
   
 } 
+
 
 .footer_container {
   display: flex; 
