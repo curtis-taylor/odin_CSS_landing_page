@@ -8,7 +8,6 @@
   display: flex; 
   flex-direction: column;
 
-
 }
 
 
@@ -19,6 +18,13 @@
   height: 100px;
   
 } 
+
+.flex-container-info {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
 
 
 .footer_container {
